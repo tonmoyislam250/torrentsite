@@ -3,5 +3,5 @@ version: "3.3"
 services:
   qbit:
     build:
-  docker:
-    web: Dockerfile
+      docker:
+        web: Dockerfile
