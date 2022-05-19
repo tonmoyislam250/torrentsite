@@ -2,8 +2,6 @@ version: "3.3"
    
 services:
   qbit:
-    build: .
-    command: bash entrypoint.sh
-    restart: on-failure
-    ports:
-      - "80:80"
+    build:
+  docker:
+    web: Dockerfile
