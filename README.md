@@ -8,6 +8,14 @@ Special thanks to rclone and qbittorrent-nox
 ![Demo](https://raw.githubusercontent.com/developeranaz/qbittorrent-to-rclone-heroku-beta/main/demo/Screenshot%202022-01-09%20180328.png)
 
 
+
+Pure Edited Repo .
+
+<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/tonmoyislam250/torrentsite"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200" height="35.45"/></a></p>
+
+
+
+
 ## How To Deploy ?
 ### Step 1
 * Star my repository
