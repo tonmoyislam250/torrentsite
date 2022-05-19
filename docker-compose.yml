@@ -1,7 +1,7 @@
-version: "3.3"
-   
-services:
-  qbit:
-    build:
-      docker:
-        web: Dockerfile
+build:
+  api:
+    context: api
+  frontend:
+    context: frontend
+    dockerfile: Dockerfile
+    target: dev
