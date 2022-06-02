@@ -1,5 +1,16 @@
 FROM mirrorultroid6/mega-sdk-python:latest
-RUN apt update
+
+
+
+WORKDIR /usr/src/app
+RUN chmod 777 /usr/src/app
+
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+
+
+
 COPY scriptplusconf /scriptplusconf
 COPY qBconf.tar.gz /qBconf.tar.gz
 RUN tar xvf /qBconf.tar.gz
