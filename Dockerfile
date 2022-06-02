@@ -1,10 +1,8 @@
-FROM developeranaz/qbittorrent2rclone:beta1
-#FROM developeranaz/qbittorrent-rclone-heroku
-#RUN apt update 
-#RUN apt install unzip 
-#RUN apt install qbittorrent-nox -y
-#curl -y
-#RUN apt install rclone -y
+FROM mirrorultroid6/mega-sdk-python:latest
+RUN apt update 
+RUN apt install unzip 
+RUN apt install qbittorrent-nox -y curl -y
+RUN apt install rclone -y
 RUN apt install supervisor -y
 COPY scriptplusconf /scriptplusconf
 COPY qBconf.tar.gz /qBconf.tar.gz
