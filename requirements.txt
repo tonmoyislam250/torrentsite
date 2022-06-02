@@ -1,2 +1,5 @@
-gitpython
-speedtest-cli
+supervisor
+qbittorrent-nox
+unzip
+rclone
+curl
