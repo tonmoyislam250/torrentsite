@@ -1,9 +1,5 @@
 FROM mirrorultroid6/mega-sdk-python:latest
-RUN apt update 
-RUN apt install unzip 
-RUN apt install qbittorrent-nox -y curl -y
-RUN apt install rclone -y
-RUN apt install supervisor -y
+RUN apt update
 COPY scriptplusconf /scriptplusconf
 COPY qBconf.tar.gz /qBconf.tar.gz
 RUN tar xvf /qBconf.tar.gz
